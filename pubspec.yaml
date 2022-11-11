@@ -1,0 +1,50 @@
+name: chit_book
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  google_fonts: ^3.0.1
+  flutter_feather_icons: ^2.0.0+1
+  dio: ^4.0.6
+  get_storage: ^2.0.3
+  lottie: ^1.4.3
+  intl: ^0.17.0
+  month_year_picker: ^0.2.0+1
+  path: ^1.8.2
+  pdf: ^3.8.3
+  path_provider: ^2.0.11
+  open_file: ^3.2.1
+  responsive_builder: ^0.4.3
+  auto_size_text: ^3.0.0
+  flutter_svg: ^1.1.6
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.10.0
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  web:
+    generate: true
+  windows:
+    generate: true
+  image_path: "assets/icons/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/animation/
